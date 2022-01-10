@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap');
+
+body {
+    margin: 0;
+    background-color: #163A24;
+}
+
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+
+    width: 120px;
+    padding-left: 80px;
+
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.navigation ul li a.button,
+a.button {
+    background-color: #198C36;
+    padding: 20px 30px;
+    color: #FFF;
+    border-radius: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigation>button a:hover {
+    background-color: #FFF;
+    color: #15762e;
+}
+
+
+.content {
+    padding-left: 120px;
+    padding-top: 250px;
+}
+
+.content h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-family: Domine, sans-serif;
+}
+
+.content p {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Domine, sans-serif;
+}
+
+.content-img {
+    width: 50%;
+    margin-left: 550px;
+
+}
+
+
+.info {
+    background-color: #FFF;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+    padding-right: 100px;
+    padding-left: 200px;
+}
+
+.text {
+    padding-left: 800px;
+    padding-bottom: 1000px;
+}
